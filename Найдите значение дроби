@@ -1,0 +1,14 @@
+Дано число n > 0. Найдите значение дроби:
+Напишите функцию с именем fractional, которая принимает число n и возвращает значение дроби. В решении используйте цикл for. Значение дроби округлите до трех десятичных знаков.
+
+function fractional(n){
+ let result = 0;
+ let sum = 0;
+ let mult = 1;
+   for (let i = 1; i <= n; i++) {
+      sum += i;
+      mult *= i;
+     result = sum / mult;
+   }
+ return +result.toFixed(3);
+}
