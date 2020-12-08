@@ -1,0 +1,15 @@
+Напишите функцию с именем fibonacciNumbers, которая принимает число n (n >= 2) в качестве аргумента и возвращает массив из n чисел Фибоначчи.
+function fibonacciNumbers(n){
+  let arr = [0, 1, 1];
+  let fib1 = 1;
+  let fib2 = 1;
+  let fib;
+    if (n === 2) return [0, 1];
+     for (let i = 2; i <= n - 2; i++) {
+      fib = fib1 + fib2;
+      fib1 = fib2;
+      fib2 = fib;
+      arr.push(fib);
+    }
+ return arr;
+}
