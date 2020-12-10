@@ -1,0 +1,16 @@
+Вкладчик положил некоторое количество денег в банк. Ежегодно эта сумма увеличивается на percent (percent > 0) процентов от текущей суммы вклада. Определите, какая сумма денег будет на счету через period лет?
+Напишите функцию с именем bankPercent, которая принимает в качестве аргументов три числа:
+money (начальная сумма вклада);
+percent (капитализированный банковский процент);
+period (количество лет)
+
+function bankPercent(money, percent, period){
+  let years = 0;
+  let sum = money;
+    do {
+      sum += sum * percent / 100;
+      years++;
+    } while (years < period)
+  return sum.toFixed(2);
+}
+
