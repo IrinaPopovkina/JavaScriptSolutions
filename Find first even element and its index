@@ -1,0 +1,11 @@
+Напишите функцию с именем firstEvenElement, которая принимает массив arr в качестве аргумента и возвращает первый четный элемент и его индекс в виде массива [element, index]. Если в массиве нет ни одного четного элемента, вернуть пустой массив []. В решении необходимо использовать оператор break.
+function firstEvenElement(arr){
+ let result = [];
+   for (let i = 0; i < arr.length; i++) {
+     if ( arr[i] % 2 === 0) {
+     return [arr[i], i];
+     break;
+     }
+   }
+   return result;
+}
