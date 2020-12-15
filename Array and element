@@ -1,0 +1,11 @@
+Напишите функцию с именем isElementIncluded, которая принимает числовой массив arr и число x в качестве аргументов и возвращает true, если в массиве есть элемент x, и false в противном случае.
+В решении необходимо использовать оператор break.
+function isElementIncluded(arr, x){
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] === x){
+      return true; 
+      break;
+    }
+  }
+  return false;
+}
