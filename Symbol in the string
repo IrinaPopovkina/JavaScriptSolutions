@@ -1,0 +1,11 @@
+Напишите функцию с именем iSymbInString, которая принимает строку str и символ symb в качестве аргументов и возвращает true, если в строке встречается хотя бы один символ symb, и false в противном случае.
+В решении необходимо использовать оператор break. Запрещено использование методов строк.
+function iSymbInString(str, symb){
+ for (let i = 0; i < str.length; i++) {
+   if (str[i] === symb) {
+     return true;
+     break;
+   }
+ }
+ return false;
+}
