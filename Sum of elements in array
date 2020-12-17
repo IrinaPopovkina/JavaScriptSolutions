@@ -1,0 +1,12 @@
+Напишите функцию с именем sumsInArray, которая принимает двухмерный массив arr в качестве аргумента и возвращает массив, содержащий суммы элементов вложенных массивов.
+function sumsInArray(arr){
+ let a = [];
+   for(let i = 0; i < arr.length; i++) {
+     let sum = 0;
+     for(let j = 0; j < arr[i].length; j++) {
+       sum += arr[i][j];
+     }
+     a.push(sum);
+   }
+ return a;
+}
