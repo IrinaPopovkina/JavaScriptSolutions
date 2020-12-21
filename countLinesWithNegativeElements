@@ -1,0 +1,16 @@
+Напишите функцию с именем countLinesWithNegativeElements, которая принимает двухмерный массив arr в качестве аргумента и возвращает количество строк, содержащих хотя бы один отрицательный элемент.
+function countLinesWithNegativeElements(arr){
+let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+     let a = 0;
+       for (let j = 0; j < arr[i].length; j++) {
+         if (arr[i][j] < 0) {
+           a += 1;
+         }
+       }
+     if (a > 0) {
+       count += 1;
+     }
+  }
+  return count; 
+}    
