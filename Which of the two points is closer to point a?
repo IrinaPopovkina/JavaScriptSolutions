@@ -1,0 +1,9 @@
+Three points a, b, and c with different coordinates lie on the numeric axis. Determine which of the two points: b or c is closer to point a.
+Write a function called nearest Point that takes three numbers a, b, c (the coordinates of three points on the number line) as arguments and returns:
+the string "b" if the point b closer to point a,
+the line "c" if the point c closer to point a,
+the line "distances are equal" if the distance from point b to point c to point a are equal.
+
+function nearestPoint(a, b, c){
+  return Math.abs(a - b) === Math.abs(a - c) ? "distances are equal" : Math.abs(a - b) > Math.abs(a - c) ? 'c' : 'b';
+}
