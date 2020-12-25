@@ -1,0 +1,8 @@
+Напишите функцию с именем expressionValue, которая принимает три числа a, b, c в качестве аргументов и возвращает значение выражения:
+
+|a - c| + |b - c| / |a + b + c|
+Результат округлите до двух десятичных знаков.
+
+function expressionValue(a, b, c){
+  return +((Math.abs(a - c) + Math.abs(b - c)) / Math.abs(a + b + c)).toFixed(2);
+}
