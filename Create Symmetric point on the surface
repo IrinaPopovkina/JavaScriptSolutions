@@ -1,0 +1,5 @@
+The points M and N are symmetric with respect to the origin.
+Write a function named oppositePoint that takes the number x as argument and returns the coordinates of point N as the string "N(x)".
+function oppositePoint(x){
+  return `N(${-x})`;
+}
