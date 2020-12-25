@@ -1,0 +1,5 @@
+Напишите функцию safeNumber, которая принимает целое число x, и возвращает true, если переменная x содержит безопасное целочисленное значение, и false - в противном случае.
+function safeNumber(x){
+  if (Number.isSafeInteger(x)) return true;
+  else return false;
+}
