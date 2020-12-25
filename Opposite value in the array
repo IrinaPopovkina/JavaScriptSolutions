@@ -1,0 +1,13 @@
+Given an array arr and some number num. Determine whether the array contains an element that is the opposite of num, and if so, return its index. If there is no such element, return undefined.
+Write a function named opposite In Array that takes the array arr and the number num as arguments and returns the index of the element opposite to the number num.
+
+function oppositeInArray(arr, num){
+  let index;
+  for ( let i = 0; i <= arr.length; i++) {
+    if ( arr[i] === -num){
+    index = i;
+    break;
+    }
+  }
+return index >= 0 ? index : undefined;
+}
