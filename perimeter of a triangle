@@ -1,0 +1,8 @@
+The coordinates of three points of the plane - the vertices of the triangle are given: A (x1, y1), B (x2, y2), C (x3, y3)
+Write a function called perimeter that takes six numbers (three pairs of numbers are the coordinates of the vertices of the triangle) x1, y1, x2, y2, x3, y3 as arguments and returns the perimeter of the triangle. Round the result to two decimal places.
+function perimeter(x1, y1, x2, y2, x3, y3){
+  let ab = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+  let ac = Math.sqrt(Math.pow(x3 - x1, 2) + Math.pow(y3 - y1, 2));
+  let bc = Math.sqrt(Math.pow(x3 - x2, 2) + Math.pow(y3 - y2, 2));
+    return +(ab + ac + bc).toFixed(2);
+}
