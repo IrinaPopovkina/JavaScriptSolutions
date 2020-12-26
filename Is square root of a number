@@ -1,0 +1,8 @@
+Напишите функцию с именем isSquare, которая принимает число x в качестве аргумента и возвращает строку вида
+x is square of y, если число x является квадратом некоторого числа y,
+сообщение x is not a square, если число x не является квадратом целого числа.
+function isSquare(x){
+  let y = Math.sqrt(x);
+    if (Math.sqrt(x) % 1 === 0) return `${x} is square of ${y}`;
+      else return `${x} is not a square`;
+}
