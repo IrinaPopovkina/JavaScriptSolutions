@@ -1,0 +1,12 @@
+Write a feature named quadraticEquation that accepts the values of variables a, b, c as arguments and returns the roots of the equation in the form of an array of "x1, x2" or "There are no roots."
+
+function quadraticEquation(a, b, c){
+  let D = Math.pow(b, 2) - (4 * a * c);
+    if (D < 0) return 'There are no roots';
+      let arr = [];
+        let x1 = (- b + Math.sqrt(D)) / (2 * a);
+        let x2 = (- b - Math.sqrt(D)) / (2 * a);
+          if (D > 0) {
+            return [x1, x2];
+          }
+}
