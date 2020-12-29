@@ -1,0 +1,13 @@
+Given a number n> 0. Find the value of the fraction:
+Write a function named fractional that takes n and returns a fractional value. Use a for loop in your solution. Round the value of the fraction to three decimal places.
+function fractional(n){
+ let result = 0;
+ let sum = 0;
+ let mult = 1;
+   for (let i = 1; i <= n; i++) {
+      sum += i;
+      mult *= i;
+     result = sum / mult;
+   }
+ return +result.toFixed(3);
+}
