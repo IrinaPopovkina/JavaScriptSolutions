@@ -1,0 +1,14 @@
+Write a function called numericalTable that takes the numbers n and m as arguments and returns a table of numbers from 1 to n. Each line contains m numbers, separated by a space. All lines except the last one end with a \ n newline character.
+For example, for n = 4, m = 3 the line should be obtained:
+function numericalTable(n, m){"1 1 1\n2 2 2\n3 3 3\n4 4 4"
+
+  let str = '';
+    for (let i = 1; i <= n; i++) {
+      if (i < n) {
+        str = str + (i + ' ').repeat(m - 1) + i + '\n';
+      } else {
+        str = str + (i + ' ').repeat(m - 1) + i;
+      }
+    }
+    return str;
+}
