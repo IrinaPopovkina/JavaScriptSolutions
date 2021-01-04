@@ -1,0 +1,7 @@
+Write the integerPartsOfElements function, which accepts the arr array as an argument and returns an array in which items are equal to an entire part of their value.
+function integerPartsOfElements(arr){
+ for(let i = 0; i < arr.length; i++) {
+    arr[i] = Math.trunc(arr[i]);
+ }
+  return arr;  
+}
