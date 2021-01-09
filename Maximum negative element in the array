@@ -1,0 +1,9 @@
+Write the maxNegative function, which takes the arr array as an argument and returns the maximum negative element in the array. If the arr array does not contain negative elements, return null.
+function maxNegative(arr){
+  let a = [];
+  if (arr.length === 0) return null;
+    for(let el of arr) {
+      if (el < 0) a.push(el);
+    }
+    return a.length === 0 ? null : Math.max(...a);
+}
