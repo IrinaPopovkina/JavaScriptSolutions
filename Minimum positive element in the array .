@@ -1,0 +1,12 @@
+Write a minPositive feature that takes the arr array as an argument and returns the minimum positive element in the array. If the arr array does not contain positive elements, return null.
+function minPositive(arr){
+  let a = [];
+    if (arr.length === 0) {
+      return null;
+    } else {
+      for(let el of arr) {
+        if (el > 0) a.push(el);
+    }
+    return a.length === 0 ? null : Math.min(...a);
+ }
+}
