@@ -1,0 +1,8 @@
+Three athletes took part in the race. The results of the competition are stored in the form of an array:
+[[name1, time1], [name2, time2], [name3, time3]].
+Determine the time of the winner.
+Write a feature named victoryInSwim that accepts an array of arr that stores the results of the competition as an argument and returns the least time. In all tests the number of athletes is always equal to 3.
+
+function victoryInSwim(arr){
+  return Math.min(arr[0][1], arr[1][1], arr[2][1]);
+}
