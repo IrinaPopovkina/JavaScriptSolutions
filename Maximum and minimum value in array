@@ -1,0 +1,4 @@
+Write a maxMin feature that accepts the arr array as an argument and returns an array that contains the maximum and minimum value: "max, min." If the array is empty, return it.
+function maxMin(arr){
+ return arr.length === 0 ? [] : [Math.max(...arr), Math.min(...arr)];
+}
