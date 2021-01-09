@@ -1,0 +1,4 @@
+Write the differenceMaxMin function, which accepts the arr array as an argument and returns the difference between the maximum and the minimum value. If the array is empty, return null.
+function differenceMaxMin(arr){
+  return arr.length === 0 ? null : Math.max(...arr) - Math.min(...arr);
+}
