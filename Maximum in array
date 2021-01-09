@@ -1,0 +1,4 @@
+Write a max function that takes the arr array as an argument and returns the maximum element of that array. If the array is empty, the function should return.
+function max(arr){
+  return arr.length === 0 ? [] : Math.max(...arr);
+}
