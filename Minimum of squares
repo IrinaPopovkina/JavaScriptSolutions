@@ -1,0 +1,6 @@
+Four numbers are given - the area of four squares. Find the side of the smallest square.
+Write the minSquareSide function, which takes four numbers a, b, c, d (four squares) as arguments and returns the side of the smallest square.
+
+function minSquareSide(a, b, c, d){
+  return Math.sqrt(Math.min(a, b, c, d));
+}
