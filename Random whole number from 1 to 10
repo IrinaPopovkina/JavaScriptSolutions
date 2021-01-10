@@ -1,0 +1,7 @@
+
+Math.random () returns a random number in the range of 0 (inclusive) and 1 (not inclusive).
+Write a feature named integerFrom1To10, which returns a random whole number from 1 to 10 inclusive.
+
+function integerFrom1To10(){
+  return Math.floor(Math.random() * 10) + 1;
+}
