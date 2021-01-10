@@ -1,0 +1,6 @@
+Math.random () returns a random number in the range of 0 (inclusive) and 1 (not inclusive).
+Write a feature named integerFrom10To99 that returns a random whole double digit number from 10 to 99 inclusive.
+
+function integerFrom10To99(){
+ return Math.floor(Math.random() * 10) + 10;
+}
