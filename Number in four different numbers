@@ -1,0 +1,5 @@
+
+Write a feature named convertNumber that accepts a whole positive decimal number num as an argument and returns the array in which that number is written in the decimal, binary, eight, and hexagon numerical system.
+function convertNumber(num){
+  return [+num.toString(10), +num.toString(2), +num.toString(8), num.toString(16)];
+}
