@@ -1,0 +1,6 @@
+
+Write a feature named numToBinary that accepts a whole positive decimal number as an argument and returns that number recorded in the binary numerical system.
+
+function numToBinary(num){
+  return +num.toString(2);
+}
