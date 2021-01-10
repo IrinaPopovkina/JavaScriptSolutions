@@ -1,0 +1,4 @@
+Write a feature named integerFromMinToMax, which takes two whole positive numbers of min, max (min < max) as arguments and returns a random number from min (inclusive) to max (inclusive).
+function integerFromMinToMax(min, max){
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
