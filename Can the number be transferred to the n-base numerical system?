@@ -1,0 +1,5 @@
+
+Write a function with the name convertNumber that accepts the whole positive decimal number num and number n (the basis of the numerical system) as arguments and returns the number recorded in the n or undefined number if it is not possible to transfer to such a system.
+function convertNumber(num, n){
+   return n >= 2 && n <= 36? num.toString(n): undefined;
+}
