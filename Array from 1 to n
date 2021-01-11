@@ -1,0 +1,11 @@
+Write createArray, which accepts the n number as an argument and returns an array containing natural numbers from 1 to a given n number: q1, 2, 3, ...., n.
+If n q 0, return the empty array.
+
+function createArray(n){
+  let arr = [];
+  for(let i = 1; i <= n; i++) {
+    arr.push(i);
+  } 
+  return arr.length === 0 ? [] : arr;
+}
+
