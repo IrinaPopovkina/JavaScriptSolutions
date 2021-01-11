@@ -1,0 +1,5 @@
+Write the getDay feature, which accepts the answer line (a line containing a date) as an argument and returns the number - the day of the month.
+
+function getDay(answer){
+  return parseInt(answer);
+}
