@@ -1,0 +1,9 @@
+
+Write an average feature that accepts an array of marks from students as an argument and returns the average grade score in the classroom. Round the result to 1 mark after the comma and return as a line.
+function average(marks){
+  let sum = 0;
+  for(let el of marks) {
+    sum += el;
+  }
+  return (sum / marks.length).toFixed(1);
+}
