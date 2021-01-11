@@ -1,0 +1,10 @@
+
+Write createArray, which takes the whole non-negative number n as an argument and returns an array containing n numbers multiples of 10.
+
+function createArray(n){
+  let arr = [];
+  for(let i = 10; i <= 10 * n ; i += 10) {
+    arr.push(i);
+  }
+  return n === 0 ? [] : arr;
+}
