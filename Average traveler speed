@@ -1,0 +1,8 @@
+
+The traveller travelled s1 km from point A to point B in t1 hours, then s2 km from point B to C in t2 hours. Find the average speed of the traveler and the result round up to 2 signs after the comma.
+Write the averageSpeed feature, which takes 4 s1, t1, s2, t2 as arguments and returns the average traveler's speed. The result is rounded up to 2 characters after the comma and return as a number.
+
+function averageSpeed(s1, t1, s2, t2){
+  let ave = (s1 + s2) / (t1 + t2);
+    return +ave.toFixed(2);
+}
