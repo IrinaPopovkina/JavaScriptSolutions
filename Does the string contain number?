@@ -1,0 +1,6 @@
+
+Write the isStringContainsNumber feature, which accepts the str line as an argument and returns true if the line contains a number, and is false, otherwise.
+
+function isStringContainsNumber(str){
+  return str == parseFloat(str)? true : false;
+}
