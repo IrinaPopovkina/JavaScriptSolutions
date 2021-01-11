@@ -1,0 +1,7 @@
+
+The store's check contains the price of the item and the name of the item in the form of :2.59 milk. Get the price of the goods in the form of a number.
+Write the priceOfItem feature, which accepts the receipt line (the purchase description in the form of the line: "price of the name of the item") as an argument and returns the number - the price of the item.
+
+function priceOfItem(receipt){
+  return parseFloat(receipt);
+}
