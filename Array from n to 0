@@ -1,0 +1,9 @@
+Write the createReverseArray feature, which accepts the whole non-negative number n as an argument and returns an array containing entire numbers from n to 0: qn, n-1, ..., 3, 2, 1, 0.
+
+function createReverseArray(n){
+  let arr = [];
+  for(let i = n; i >= 0; i--) {
+    arr.push(i);
+  }
+  return arr;
+}
