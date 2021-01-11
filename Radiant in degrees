@@ -1,0 +1,4 @@
+Write convertRadiansToDegrees, which takes n (corner in radian) as an argument and returns the angle value in degrees. The result is rounded up to 2 characters after the comma and return as a number.
+function convertRadiansToDegrees(n){
+  return +(180 * n / Math.PI).toFixed(2);
+}
