@@ -1,0 +1,17 @@
+
+When you pay the box office for the goods you bought, you received a check, which printed the prices and the name of the goods.
+How much money do you have to pay for all purchases?
+
+Write the purchaseValue feature, which accepts an array of values that contains the prices and name of each item purchased as an argument and returns the total purchase price.
+
+function purchaseValue(values){
+  let total = 0;
+  for(let i = 0; i < values.length; i++) {
+    values[i] = parseFloat(values[i]);
+    total += values[i];
+  }
+  return total;
+}
+
+
+
