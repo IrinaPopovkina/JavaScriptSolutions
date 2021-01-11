@@ -1,0 +1,5 @@
+
+Write the ringSquare function, which takes 2 numbers r1, r2 (external and inner ring radii) (r1 > r2) as arguments and returns the ring area. The result is rounded up to 2 characters after the comma and return as a number.
+function ringSquare(r1, r2){
+  return +(Math.PI * (r1 ** 2 - r2 ** 2)).toFixed(2);
+}
