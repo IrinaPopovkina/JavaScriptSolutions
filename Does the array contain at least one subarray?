@@ -1,0 +1,10 @@
+
+Write the isArrayContainsArray feature, which accepts the arr array as an argument and returns true if at least one of the array elements is an array, and false - otherwise.
+
+function isArrayContainsArray(arr){
+  for(let el of arr) {
+    if (Array.isArray(el)) return true;
+  }
+  return false;
+}
+
