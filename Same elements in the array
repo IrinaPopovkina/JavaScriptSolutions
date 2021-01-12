@@ -1,0 +1,16 @@
+
+Write the equalElementsInArray feature, which accepts an array of arr numbers as an argument, and determines if there are the same elements in the array, and if there is, returns them as an array of "element, element." If there are several such pairs, return the first of them. If you don't have the same elements in the array, return the message "All elements are different." If the original array is empty, return the empty array.
+
+function equalElementsInArray(arr){
+  let a = [];
+    if (arr.length === 0) return [];
+    for(let i = 0; i < arr.length-1; i++) {
+      for(let j = i+1; j < arr.length; j++){
+        if (arr[i] === arr[j]) {
+          a.push(arr[i],arr[j]); 
+          return a;
+        }
+      }
+    }
+    return "All elements are different";
+}
