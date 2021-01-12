@@ -1,0 +1,9 @@
+Напишите функцию countEvenPositive, которая принимает массив arr в качестве аргумента, и возвращает количество четных положительных элементов массива.
+
+function countEvenPositive(arr){
+  let count = 0;
+  for(let el of arr) {
+    if (el > 0 && el % 2 === 0) count++;
+  }
+  return count;
+}
