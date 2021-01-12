@@ -1,0 +1,11 @@
+
+Write the isArrayInArg feature, which takes two values of value1 and value2 as arguments and returns true if at least one of the arguments is an array, and false - otherwise.
+
+function isArrayInArg(value1, value2){
+  if (Array.isArray(value2) || 
+    Array.isArray(value1)) {
+    return true;
+  } else {
+  return false;
+  }
+}
