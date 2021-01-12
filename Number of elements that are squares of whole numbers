@@ -1,0 +1,11 @@
+
+Write the counOfSquares feature, which accepts the arr array as an argument, and returns the number of items that are squares of whole numbers.
+
+function counOfSquares(arr){
+  let count = 0;
+  for(let el of arr) {
+    if (typeof el === 'number' && Math.sqrt(el) 
+      % 1 === 0) count++;
+  }
+  return count; 
+}
