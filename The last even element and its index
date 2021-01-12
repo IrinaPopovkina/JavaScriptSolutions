@@ -1,0 +1,8 @@
+Напишите функцию lastEvenElement, которая принимает числовой массив arr в качестве аргумента, и возвращает последний четный элемент и его индекс в виде массива [element, index], или undefined, если массив не содержит четных элементов.
+
+function lastEvenElement(arr){
+  for(let i = arr.length; i >= 0; i--) {
+    if (arr[i] % 2 === 0) return [arr[i], i];
+  }
+  return undefined;
+}
