@@ -1,0 +1,13 @@
+
+Write the isElementInArray feature, which accepts the arr array as an argument, and if the array contains at least one item equal to the sum of its neighbors on the left and right, finds the first such item and returns the view line:
+"true: it is <element>" where the <element>-value of the item.
+or false, otherwise.
+
+function isElementInArray(arr){
+ let sum = 0;
+ for(let i = 0; i < arr.length; i++) {
+   if (arr[i] === arr[i + 1] + arr[i - 1]) 
+     return `true: it is ${arr[i]}`;
+ }
+ return false;
+}
