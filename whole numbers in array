@@ -1,0 +1,10 @@
+
+Write the countIntegers feature, which accepts the arr array as an argument, and returns the number of items that are whole numbers.
+
+function countIntegers(arr){
+  let count = 0;
+  for(let el of arr) {
+    if (el === parseInt(el)) count++;
+  }
+  return count;
+}
