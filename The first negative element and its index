@@ -1,0 +1,9 @@
+
+Write the firstNegative feature, which accepts the arr array as an argument, and returns the first negative element of the array and its index (in the form of an array of "element, index" or undefined if the array contains no negative elements.
+
+function firstNegative(arr){
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i] >= 0)  continue;
+     else return [arr[i], i];
+    }
+  }
