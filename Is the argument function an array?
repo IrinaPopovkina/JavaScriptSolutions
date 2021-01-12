@@ -1,0 +1,6 @@
+
+Write the isArgArray function, which accepts value as an argument and returns true if the value is an array, and false - otherwise. Use Array.isArray.
+
+function isArgArray(value){
+  return Array.isArray(value)? true : false;
+}
