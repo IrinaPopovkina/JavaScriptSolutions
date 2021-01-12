@@ -1,0 +1,10 @@
+
+Write createNegativeArray, which accepts a whole non-negative n number as an argument and returns an array containing n negative numbers from -1 to -n.
+
+function createNegativeArray(n){
+  let arr = [];
+  for(let i = -1; i >= -n; i--) {
+    arr.push(i);
+  }
+  return arr;
+}
