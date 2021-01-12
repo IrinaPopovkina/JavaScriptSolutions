@@ -1,0 +1,11 @@
+
+Write the numberOfOrderedTriples feature, which accepts the arr array as an argument, and returns the number of threes of neighboring items that are strictly ordered to ascend.
+
+function numberOfOrderedTriples(arr){
+  let count = 0;
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i + 1] > arr[i] && arr[i + 2] > 
+      arr[i + 1]) count++;
+  }
+  return count;
+}
