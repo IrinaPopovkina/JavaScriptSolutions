@@ -1,0 +1,16 @@
+
+Write the sumOfElements feature, which accepts the arr array as an argument and returns the amount of array items.
+Use a loop in the solution. Array methods are not allowed.
+
+function aboveAverageScore(arr){
+  let sum = 0;
+      count = 0;
+  for(let el of arr) {
+    sum += el;
+  }
+    for(let el of arr) {
+      if (el > (sum / arr.length)) count++;
+    }
+    return count;
+}
+
