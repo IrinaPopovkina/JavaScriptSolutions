@@ -1,0 +1,11 @@
+
+Write productOfElements, which takes the arr array as an argument and returns the multiplication of the array elements.
+Use a loop in the solution. Array methods are not allowed.
+
+function productOfElements(arr){
+  let mult = 1;
+  for(let el of arr) {
+    mult *= el;
+  }
+  return arr.length === 0 ? 0 : mult;
+}
