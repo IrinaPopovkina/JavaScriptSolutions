@@ -1,0 +1,14 @@
+
+Write an average feature that takes the arr array as an argument and returns the average array arithmetic elements. Round the result to two decimal signs. In all tests, the array is not empty.
+Use a loop in the solution. Array methods are not allowed.
+
+function average(arr){
+  let ave = 0;
+  let sum = 0;
+  for(let el of arr) {
+    sum += el;
+    ave = sum / arr.length; 
+  }
+  return +(ave).toFixed(2);
+}
+
