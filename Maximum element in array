@@ -1,0 +1,12 @@
+Write the maxInArray feature, which takes the arr array as an argument and returns the maximum array element.
+Use a loop in the solution. Math.max is not allowed.
+
+function maxInArray(arr){
+  let max = arr[0];
+  for(let i = 1; i < arr.length;i++) {
+    if(arr[i] > max) max = arr[i];
+  }
+  return max;
+}
+
+
