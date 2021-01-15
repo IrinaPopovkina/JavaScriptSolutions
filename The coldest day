@@ -1,0 +1,21 @@
+
+Experts of the weather monitoring center daily record the temperature of the air and record the data in the array.
+An array of 30 values stores air temperature data in April.
+For example, the array contains values of 12, 13, 16, 10,..., 20.
+Suppose this array has the lowest temperature of 10. This means that the coldest day was April 4. (Remember that the numbering of the days of the month begins with 1, and the numbering of items in the array starts from scratch).
+Determine which day was the coldest. If the lowest temperature was a few days, return the last day.
+Write theColdestDay feature, which takes an array of arr containing temperature data in April, and returns information about the coldest day of April in the form of a line:
+"April 4 was the coldest day of the month: it was 10 degrees."
+In all tests, the input is not empty.
+
+function theColdestDay(arr){
+let min = arr[arr.length-1],
+      day = arr.length;
+  for(let i = arr.length-1; i >= 0; i--) {
+    if(arr[i] < min) {
+    min = arr[i];
+    day = i + 1;
+    }
+  }
+  return `April ${day} was the coldest day of the month: it was ${min} degrees.`;
+}
