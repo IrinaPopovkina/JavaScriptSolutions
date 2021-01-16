@@ -1,0 +1,13 @@
+Write a minInArray function that takes arr as an argument and returns the minimum element of the array.
+
+Use a loop in your solution. The use of the Math.min () method is not permitted.
+
+function minInArray(arr){
+  let min = arr[0];
+  for(let el of arr) {
+    if (el < min) {
+      min = el;
+    }
+  }
+  return min;
+}
