@@ -1,0 +1,18 @@
+Write a minOdd function that takes an array arr as an argument and returns the minimum odd element of the array. 
+If the array contains no odd elements or the array is empty return undefined.
+Use a loop in your solution. The use of the Math.min () method is not permitted.
+
+function minOdd(arr){
+  let min = 0;
+  if(arr[0] % 2 !== 0){
+   min = arr[0];
+  } else {
+    for(let i = 1; i < arr.length; i++) {
+      if(arr[i] % 2 !== 0) min = arr[i];
+    }
+  }
+    for(let j = 1; j < arr.length; j++) {
+      if(arr[j] % 2 !== 0 && arr[j] < min) min = arr[j];
+    }
+    return min === 0 ? undefined : min;;
+}
