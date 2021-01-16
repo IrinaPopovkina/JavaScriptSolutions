@@ -1,0 +1,21 @@
+Children collected mushrooms, then counted them and the data obtained were entered into an array. The array stores information about how many mushrooms each of the guys collected. The data is represented as an array [name, number] (for example, ["Alice", 19]). Determine which of the guys collected the most mushrooms.
+
+If several children have collected the same amount of mushrooms, return the name of the first one.
+
+Write a function largestNumberOfMushrooms that takes an array arr containing the names of children and the number of mushrooms they collected, and returns the name of the child who collected the most mushrooms and the number of mushrooms they collected as a string: "Name: number".
+
+In all tests, the input array is not empty.
+
+Use a loop in your 
+
+function largestNumberOfMushrooms(arr){
+  let a = arr[0][0];
+let max = arr[0][1];
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i][1] > max){
+    max = arr[i][1];
+    a = arr[i][0];
+    }
+  }
+return (a + ': '+ max);
+}
