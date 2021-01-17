@@ -1,0 +1,7 @@
+
+Напишите функцию deleteFromEnd, которая принимает массив arr в качестве аргумента, удаляет последний элемент массив и возвращает полученный массив и удаленный элемент в виде массива [newArray, element].
+
+function deleteFromEnd(arr){
+  let el = arr.pop();
+  return [arr, el];
+}
