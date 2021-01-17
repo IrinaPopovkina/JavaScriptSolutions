@@ -1,0 +1,10 @@
+Write a splitString function that takes str as an argument and returns an array containing the letters of that string. Use a row loop and push method in your solution. The split () method is prohibited in this task.
+
+function splitString(str){
+  if (str.length === 0) return [];
+  let arr = [];
+  for(let i = 0; i < str.length; i++) {
+    arr.push(str[i]);
+  }
+  return arr;
+}
