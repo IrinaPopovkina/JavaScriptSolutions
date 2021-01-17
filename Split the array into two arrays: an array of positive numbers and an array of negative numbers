@@ -1,0 +1,13 @@
+An array containing numbers is given. Get two arrays: an array of positive numbers and an array of negative numbers.
+Write a separatePosAndNeg function that takes a numeric array arr as an argument, returns an array containing an array of positive numbers and an array of negative numbers as:
+[[array of positive numbers], [array of negative numbers]].
+
+function separatePosAndNeg(arr){
+  let pos = [];
+  let neg = [];
+  for(let el of arr) {
+    if (el > 0) pos.push(el);
+    if (el < 0) neg.push(el);
+  }
+  return [pos, neg];
+}
