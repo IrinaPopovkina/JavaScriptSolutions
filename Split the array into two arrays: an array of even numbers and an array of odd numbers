@@ -1,0 +1,15 @@
+An array containing numbers is given. Get two arrays: an array of even numbers and an array of odd numbers.
+Write a separateEvenAndOdd function that takes a numeric array arr as an argument, returns an array containing an array of even numbers and an array of odd numbers in the form: [[array of even numbers], [array of odd numbers]].
+
+function separateEvenAndOdd(arr){
+  let odd = [];
+  let even = [];
+  for(let el of arr) {
+    if (el % 2 === 0) {
+    even.push(el);
+    } else {
+    odd.push(el);
+    }
+  }
+return [even, odd];
+}
