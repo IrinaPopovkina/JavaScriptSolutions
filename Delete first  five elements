@@ -1,0 +1,7 @@
+Write a function deleteFiveElements that takes an arr array as an argument, removes the first five elements of the array, and returns the resulting array.
+function deleteFiveElements(arr){
+  for(let i = 0; i < 5; i++) {
+    arr.shift(i);
+  }
+  return arr;
+}
