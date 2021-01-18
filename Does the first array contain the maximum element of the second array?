@@ -1,0 +1,9 @@
+Write a function includesOtherMax that takes two numeric arrays arr1 and arr2 as arguments and returns true if arr1 contains the maximum element in arr2, and false otherwise.
+
+function includesOtherMax(arr1, arr2){
+  let max = arr2[0];
+  for(let el of arr2) {
+    if(el > max) max = el;
+  }
+  return arr1.includes(max);
+}
