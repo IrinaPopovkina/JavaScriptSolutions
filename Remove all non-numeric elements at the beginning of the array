@@ -1,0 +1,16 @@
+An array is given, at the beginning of which there is a certain number of non-numeric elements, after which there may be numbers. Write a function deleteNotNumbers that takes a mixed array arr as an argument, removes all non-numeric elements in the array up to the first number, and returns the resulting array.
+
+function deleteNotNumbers(arr){
+  let count = 0;
+  for(let i = 0; i < arr.length; i++) {
+    if (typeof arr[i] !== 'number') {
+      count++; 
+    } else {
+      break;
+    }
+  }
+  for(let i = 0; i < count; i++) {
+    arr.shift(i);
+  } 
+  return arr;
+}
