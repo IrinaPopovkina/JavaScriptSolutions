@@ -1,0 +1,10 @@
+
+Write a function indexOfMin that takes a non-empty arr array as an argument and returns the index of the minimum element in the array. If the array contains multiple minimum elements, return the index of the first such element.
+
+function indexOfMin(arr){
+  let min = arr[0];
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i] < min) min = arr[i];
+  }
+  return arr.indexOf(min);
+}
