@@ -1,0 +1,5 @@
+Write a uniqueElement function that takes a non-empty arr array and value as arguments, and returns true if the element with value is unique (that is, it occurs only once in the array), and false otherwise.
+
+function uniqueElement(arr, value){
+  return arr.indexOf(value) === arr.lastIndexOf(value) ? true : false;
+}
