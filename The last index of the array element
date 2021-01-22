@@ -1,0 +1,5 @@
+Write a function lastIndexOfValue that takes a non-empty arr array and value as arguments, and returns the last index of the array element with value, or "Not found" if there is no such element.
+
+function lastIndexOfValue(arr, value){
+  return arr.lastIndexOf(value) !== -1 ? arr.lastIndexOf(value) : 'Not found';
+}
