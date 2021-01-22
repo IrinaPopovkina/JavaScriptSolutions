@@ -1,0 +1,13 @@
+Write a function indexMaxMin that takes a non-empty arr array as an argument and returns the string "max" 
+if the index of the first maximum element in the array is less than the index of the first minimum element in the array and the string "min" otherwise. 
+If all elements in the array are equal then return undefined.
+
+function indexMaxMin(arr){
+  let min = arr[0];
+  let max = arr[0];
+  for(let i = 0; i < arr.length; i++) {
+    if (arr[i] < min) min = arr[i];
+    if (arr[i] > max) max = arr[i];
+  }
+  return arr.indexOf(min) === arr.indexOf(max)? undefined : arr.indexOf(min) > arr.indexOf(max)? 'max' : 'min';
+}
