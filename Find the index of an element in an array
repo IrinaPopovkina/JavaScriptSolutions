@@ -1,0 +1,6 @@
+Write a function indexOfValue that takes a non-empty arr array and value as arguments
+and returns the index of the array element with value or undefined if there is no such element.
+
+function indexOfValue(arr, value){
+ return arr.indexOf(value) !== -1 ? arr.indexOf(value) : undefined;
+}
