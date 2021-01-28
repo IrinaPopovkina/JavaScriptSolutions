@@ -1,0 +1,15 @@
+Three numbers are given. Find how many positive numbers among them and how many negative numbers.
+
+Write a function named countOfPosAndNeg that takes three numbers a, b, c as arguments and returns the number of positive and negative numbers in this set as an array [countOfPositive, countOfNegative].
+
+function countOfPosAndNeg(a, b, c){
+  let countPos = 0;
+  let countNeg = 0;
+  if (a > 0) countPos++;
+  if (b > 0) countPos++;
+  if (c > 0) countPos++;
+  if (a < 0) countNeg++;
+  if (b < 0) countNeg++;
+  if (c < 0) countNeg++;
+  return [countPos, countNeg];
+}
