@@ -1,0 +1,10 @@
+Write a function called isPalindrome that takes a three-digit positive number num as an argument and returns:
+
+'palindrome' if the number is a palindrome,
+"not a palindrome" if the number is not a palindrome.
+
+function isPalindrome(num){
+  let str = String(num);
+   return str[0] === str[2] ? 'palindrome' : 'not a palindrome';
+}
+
