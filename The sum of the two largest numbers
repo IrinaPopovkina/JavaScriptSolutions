@@ -1,0 +1,8 @@
+Three different numbers are given. Get the sum of two big numbers.
+Write a function called sumOfTwoLargest that takes three different numbers a, b, c as arguments and returns the sum of the two large numbers.
+
+function sumOfTwoLargest(a, b, c){
+  if (a > b && c > b) return a + c;
+  if ( b > a && c > a) return b + c;
+  if (a > c && b > c) return a + b;
+}
