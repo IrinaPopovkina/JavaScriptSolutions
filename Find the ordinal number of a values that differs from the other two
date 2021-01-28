@@ -1,0 +1,8 @@
+Three quantities are given: one of them differs from the other two quantities, which have the same values. Find the ordinal number of the quantity that differs from the other two.
+Write a function called orderNumberOfDifferentValue that takes three numbers a, b, c (two of which are equal) as arguments and returns the ordinal of the value different from the other two.
+
+function orderNumberOfDifferentValue(a, b, c){
+  if (a === b) return 3;
+  if (a === c) return 2;
+  if (b === c) return 1;
+}
