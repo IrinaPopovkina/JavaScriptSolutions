@@ -1,0 +1,5 @@
+Write a function named evenOrOdd that takes num as an argument and returns "even" if the number is even, "odd" if the number is odd. Consider zero as an even number.
+
+function evenOrOdd(num){
+  return num % 2 === 0 ? 'even' : 'odd';
+}
