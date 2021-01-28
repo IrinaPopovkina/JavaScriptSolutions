@@ -1,0 +1,6 @@
+Two numbers are given. First, print a larger number, then a smaller number.
+Write a function called putInOrder that takes two numbers a, b as arguments and returns first a larger number, then a smaller number as an array [max, min].
+
+function putInOrder(a, b){
+  return a > b ? [a, b] : [b, a];
+}
