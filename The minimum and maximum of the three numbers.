@@ -1,0 +1,6 @@
+Three different numbers are given. Get the minimum and maximum value.
+Write a function named minAndMax that takes three different numbers a, b, c as arguments and returns the minimum and maximum values as an array [min, max].
+
+function minAndMax(a, b, c){
+  return [Math.min(a, b, c), Math.max(a, b, c)];
+}
