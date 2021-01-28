@@ -1,0 +1,8 @@
+Two numbers are given. Find the smaller number and its ordinal number.
+For example, given the numbers 7, 2. The smaller number is 2, its ordinal number is 2.
+For numbers 8, 12, the smaller number is 8, its serial number is 1.
+Write a function called smallerOfTwo that takes two numbers a, b as arguments and returns the smaller number and its ordinal as an array [number, index]. If the numbers are equal, return the first one.
+
+function smallerOfTwo(a, b){
+ return a > b ? [b, 2] : [a, 1];
+}
