@@ -1,0 +1,7 @@
+Write a function named numberSign that takes num as an argument and returns "plus" if the number is positive, "minus" if the number is negative, or null if the number is 0.
+
+function numberSign(num){
+  if (num > 0) return 'plus';
+  if (num < 0) return 'minus';
+  if (num === 0) return null;
+}
