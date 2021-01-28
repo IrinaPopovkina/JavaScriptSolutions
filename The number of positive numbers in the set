@@ -1,0 +1,12 @@
+Three numbers are given. Find how many positive numbers among them.
+Write a function called countOfPositive that takes three numbers a, b, c as arguments and returns the number of positive numbers in this set.
+
+function countOfPositive(a, b, c){
+ let  count = 0;
+ if (a > 0) count++;
+ if (b > 0) count++;
+ if (c > 0) count++;
+ return count;
+}
+
+
