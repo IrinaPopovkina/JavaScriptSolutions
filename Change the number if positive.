@@ -1,0 +1,5 @@
+Write a function named changeNumber that takes the number num as an argument and increments it by 8 if the number is positive and doesn't change it otherwise.
+
+function changeNumber(num){
+  return num > 0 ? num + 8 : num;
+}
