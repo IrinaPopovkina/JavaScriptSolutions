@@ -1,0 +1,8 @@
+The Japanese consider the number “4” (四) to be one of the most unlucky numbers. In the hospital there are no wards with such a number, in houses they prefer to exclude the 4th floor (the third is followed by the fifth).
+Write a function called floorNumber that takes the number floor (the number of the floor in the house) and the number (the number of floors in the house) as arguments and returns:
+true if the floor with the floor number is in the house,
+false if there is no floor in the house.
+
+function floorNumber(floor, amount){
+  return floor <= amount ? true : false;
+}
