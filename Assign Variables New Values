@@ -1,0 +1,7 @@
+Given two variables a, b containing numbers.
+If they are not equal, assign each variable the value of the larger of these numbers, if the variables are equal, assign each variable a value of 0.
+Write a function named newValues ​​that takes two numbers a, b as arguments and returns the new values ​​of the variables a, b as an array [newA, newB].
+
+function newValues(a, b){
+  return a !== b ? [Math.max(a, b), Math.max(a, b)] : [0, 0];
+}
