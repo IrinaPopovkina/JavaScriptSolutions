@@ -1,0 +1,9 @@
+Afghans avoid having the number 39 on car numbers, mobile and home phone numbers, and even building addresses. If a resident of Kabul has the number 39 in his phone number, he must take care to put an anti-caller ID, otherwise no one will answer his calls. Finally, people who are 39 years old try not to mention it. When asked about their age, they say that they are almost 40.
+Write a function called isGoodNumber that takes num as an argument and returns a string:
+
+"The number of suitable" if the number is not 39;
+"The number is unsuccessful", otherwise.
+
+function isGoodNumber(num){
+  return num !== 39 ? 'The number of suitable' : 'The number is unsuccessful';
+}
