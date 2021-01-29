@@ -1,0 +1,11 @@
+
+Two variables a, b are given.
+If they are not equal, assign to variable a the value of the sum of these variables, to variable b - the value of the difference between these variables.
+If the variables a, b are equal, assign each of them the value 0.
+Print the new values of the variables a, b as an array [newA, newB].
+
+Write a function named newValues that takes two numbers a, b as arguments and returns the new values ​​of the variables a, b as an array [newA, newB].
+
+function newValues(a, b){
+  return a !== b ? [(a + b), (a - b)] : [0, 0];
+}
