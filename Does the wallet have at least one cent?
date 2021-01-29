@@ -1,0 +1,5 @@
+Write a function called moneyInCash that takes a number of money (the amount of cash in cents) as an argument and returns true if the amount of money is not 0 and false otherwise.
+
+function moneyInCash(money){
+  return money !== 0 ? true : false;
+}
