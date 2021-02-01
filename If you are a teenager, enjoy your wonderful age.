@@ -1,0 +1,7 @@
+The word "TEENAGER" comes from the English. "teenager": "-teen" - suffix of numbers from 13 to 19 + "age" - age. Teenager is a teenager (boy or girl) between the ages of 13 and 19.
+
+Write a function called isTeenager that takes age as an argument and returns the string "teenager" or "not a teenager". You must use a ternary operator in your solution.
+
+function isTeenager(age){
+  return age >= 13 && age <= 19 ? 'teenager' : 'not a teenager';
+}
