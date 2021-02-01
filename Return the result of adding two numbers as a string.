@@ -1,0 +1,6 @@
+Two numbers are given. Get the result of adding numbers as a string containing the arithmetic operation and the result.
+Write a function named arithmeticExpression that takes two numbers a and b as arguments and returns a string containing the expression a + b = c, where a, b are the original numbers and c is the sum of those numbers.
+
+function arithmeticExpression(a, b){
+  return `${a} + ${b} = ${a + b}`;
+}
