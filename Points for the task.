@@ -1,0 +1,10 @@
+The site contains a set of programming tasks.
+Problems have 3 levels of difficulty: "easy", "medium", "hard".
+For solving a problem of the "easy" level 2 points are awarded, for solving a problem of the "medium" level 4 points are awarded, for solving a problem of the "hard" level 8 points are awarded.
+Write a scoreIncrease function that takes two values ​​current (the current score) and level (the difficulty level of the problem) as arguments and returns the new score after solving the problem. You must use a ternary operator in your solution.
+
+function scoreIncrease(current, level){
+  return level === 'easy' ? current + 2 : level === 'medium' ? current + 4 : current + 8;
+}
+
+
