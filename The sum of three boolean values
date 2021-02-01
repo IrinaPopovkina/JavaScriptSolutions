@@ -1,0 +1,7 @@
+
+Write a function called sumOfBoolean that takes three booleans a, b, c as arguments and returns a string containing their sum.
+
+function sumOfBoolean(a, b, c){
+  let sum = !!a + !!b + !!c;
+  return String(sum);
+}
