@@ -1,0 +1,5 @@
+Write a function named valueToNumber that takes value as an argument and returns the value converted to a number. Conversion to number must be done using the unary plus +.
+
+function valueToNumber(value){
+  return +value;
+}
