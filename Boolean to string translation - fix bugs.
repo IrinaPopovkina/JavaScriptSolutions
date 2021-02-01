@@ -1,0 +1,11 @@
+It is required to create a function boolToString that takes a boolean value as an argument and returns the string "True" for the argument true or "False" for the argument false. You must use a ternary operator in your solution.
+Correct the errors in the code.
+
+function boolToString(bool){
+  return bool: "False" : "True"
+}
+
+
+function boolToString(bool){
+  return bool === true ? 'True' : 'False';
+}
