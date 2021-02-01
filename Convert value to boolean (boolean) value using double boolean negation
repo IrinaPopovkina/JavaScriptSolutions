@@ -1,0 +1,6 @@
+
+Write a function named valueToBoolean that takes value as an argument and returns the value converted to a boolean expression. The conversion must be done with double logical negation !!
+
+function valueToBoolean(value){
+  return !!value;
+}
