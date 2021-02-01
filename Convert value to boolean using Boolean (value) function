@@ -1,0 +1,5 @@
+Write a function named valueToBoolean that takes value as an argument and returns the value converted to a boolean expression. The conversion must be done using the Boolean (value) function.
+
+function valueToBoolean(value){
+  return Boolean(value);
+}
