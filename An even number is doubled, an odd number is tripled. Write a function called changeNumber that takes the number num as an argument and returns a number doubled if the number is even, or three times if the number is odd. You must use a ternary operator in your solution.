@@ -1,0 +1,6 @@
+
+Write a function called changeNumber that takes the number num as an argument and returns a number doubled if the number is even, or three times if the number is odd. You must use a ternary operator in your solution.
+
+function changeNumber(num){
+  return num % 2 === 0 ? num * 2 : num * 3;
+}
