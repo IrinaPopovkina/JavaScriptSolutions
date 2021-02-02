@@ -1,0 +1,6 @@
+
+Write a function named randomNumber that returns a random number in the range [0, 1), that is, 0 (inclusive) to 1 (but not including 1).
+
+function randomNumber(){
+  return Math.random();
+}
