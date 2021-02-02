@@ -1,0 +1,7 @@
+
+Two points with coordinates x1 and x2 lie on the number axis. Find the distance between these points.
+Write a function named distance that takes two numbers x1 and x2 as arguments and returns the distance between the points.
+
+function distance(x1, x2){
+  return Math.abs(x1 - x2);
+}
