@@ -1,0 +1,8 @@
+
+The angle is given in degrees (from 0 to 360). Find the angle in radians.
+
+Write a function called angleInRadians that takes an angle value in degrees, angle as an argument, and returns the angle value in radians. Round the result to the nearest whole number.
+
+function angleInRadians(angle){
+  return Math.round(angle * Math.PI / 180);
+}
