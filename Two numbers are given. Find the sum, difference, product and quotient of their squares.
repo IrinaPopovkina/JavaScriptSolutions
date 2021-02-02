@@ -1,0 +1,6 @@
+
+Write a function called squareOperations that takes two numbers a, b as arguments and returns the sum, difference, product, and quotient of their squares as an array of four values. Round the quotient to the nearest whole number.
+
+function squareOperations(a, b){
+  return [Math.pow(a, 2) + Math.pow(b, 2), (Math.pow(a, 2) - Math.pow(b, 2)), Math.pow(a, 2) * Math.pow(b, 2), Math.round(Math.pow(a, 2) / Math.pow(b, 2))]; 
+}
