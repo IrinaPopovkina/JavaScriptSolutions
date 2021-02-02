@@ -1,0 +1,5 @@
+Write a function named fuelPrice that takes two liters and pricePerLitre as arguments and returns the cost of gas, rounded to two decimal places, as a number.
+
+function fuelPrice(litres, pricePerLitre){
+  return +(litres * pricePerLitre).toFixed(2);
+}
