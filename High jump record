@@ -1,0 +1,7 @@
+
+Three athletes made it to the finals of the World High Jumping Championship. At the competition they showed the results res1, res2, res3. Find the winner result.
+Write a function named jumpRecord that takes three values ​​res1, res2, res3 as arguments and returns the result of the competition winner.
+
+function jumpRecord(res1, res2, res3){
+  return Math.max(res1, res2, res3);
+}
