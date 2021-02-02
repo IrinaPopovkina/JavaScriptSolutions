@@ -1,0 +1,6 @@
+The swimming competition was attended by four athletes who showed the results time1, time2, time3, time4. Find the winner result.
+Write a function named swimmingRecord that takes four values ​​time1, time2, time3, time4 as arguments and returns the result of the winner of the competition.
+
+function swimmingRecord(t1, t2, t3, t4){
+  return Math.min(t1, t2, t3, t4);
+}
