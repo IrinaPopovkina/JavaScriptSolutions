@@ -1,0 +1,5 @@
+Write a function called geometricMean that takes two numbers a and b as arguments and returns the geometric mean of those numbers, rounded to two decimal places, as a string.
+
+function geometricMean(a, b){
+  return (Math.sqrt(a * b)).toFixed(2);
+}
