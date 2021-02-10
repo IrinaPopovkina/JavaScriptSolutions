@@ -1,0 +1,20 @@
+An integer is given. Get a description of the number as a string: "negative even number", "negative odd number", "positive odd number", "positive even number", "zero number".
+Write a function called numberDescription that takes num as an argument and returns
+
+"negative even number", if the number is negative even,
+"negative odd number", if the number is negative odd,
+"positive even number", if the number is positive even,
+"positive odd number", if the number is positive odd,
+"zero number" if the number is 0.'
+
+function numberDescription(num){
+  if (num < 0 && num % 2 === 0) 
+  return 'negative even number';
+  if (num < 0 && num % 2 !== 0)
+  return 'negative odd number';
+  if (num > 0 && num % 2 === 0) 
+  return 'positive even number';
+  if (num > 0 && num % 2 !== 0) 
+  return 'positive odd number';
+  if (num === 0) return 'zero number';
+}
