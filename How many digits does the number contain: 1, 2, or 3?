@@ -1,0 +1,6 @@
+Given an integer m 1 to 999. Get the description of the number as a string: "one-digit number", "two-digit number", "three-digit number".
+Write a function called numberDescription that takes num as an argument and returns
+
+function numberDescription(num){
+  return num >= 1 && num < 10 ? 'one-digit number' : num >= 10 && num < 100 ? 'two-digit number' : 'three-digit number';
+}
