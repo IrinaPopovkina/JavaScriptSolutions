@@ -1,0 +1,8 @@
+Write a function called pythagoreanThree that takes three numbers a, b, c as arguments and returns true if the numbers are a “Pythagorean triplet” and false otherwise.
+
+function pythagoreanThree(a, b, c){
+  if (Math.pow(a, 2) + Math.pow(b, 2) === Math.pow(c, 2) 
+    || Math.pow(a, 2) + Math.pow(c, 2) === Math.pow(b, 2) 
+    || Math.pow(c, 2) + Math.pow(b, 2) === Math.pow(a, 2)) return true;
+ return false;
+}
