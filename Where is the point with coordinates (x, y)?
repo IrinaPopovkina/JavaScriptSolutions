@@ -1,0 +1,22 @@
+The coordinates of the point (x, y) on the coordinate plane are given. Determine the position of the point.
+
+Return 0 if the point's coordinates are the same as the origin (0, 0),
+
+return 1 if the point belongs to the x-axis,
+
+return 2 if the point belongs to the y-axis,
+
+return 3 if the point does not belong to the coordinate axes.
+
+Write a function named positionOfPoint that takes the x, y coordinates of a point as arguments and returns a number indicating which coordinate quarter the point belongs to.
+
+
+function positionOfPoint(x, y){
+  if (x === 0 && y === 0) return 0;
+  if (x < 0 && y === 0 || x > 0 && y === 0) 
+  return 1;
+  if (x === 0 && y > 0 || x === 0 && y < 0) 
+  return 2;
+  if (x < 0 && y > 0 || x < 0 && y < 0 || x > 0 && y < 0 || x > 0 && y > 0) 
+  return 3;
+}
