@@ -1,0 +1,8 @@
+Write a function named dayOfWeek that takes the day of the week day (a number between 1 and 7) as an argument and returns:
+
+"You can get some sleep" if the day of the week is 6 or 7;
+"Time to get up for work", otherwise.
+
+function dayOfWeek(day){
+  return day === 6 || day === 7 ? 'You can get some sleep' : 'Time to get up for work';
+}
