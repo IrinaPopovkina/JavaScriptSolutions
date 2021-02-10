@@ -1,0 +1,9 @@
+Three variables are given containing the names of people. Is there at least one name that starts with the letter "A"?
+Write a function named nameStartsWithA that takes three strings str1, str2, str3 as arguments and returns:
+"Yes" if at least one name starts with the letter "A",
+"No" otherwise.
+
+function nameStartsWithA(str1, str2, str3){
+  if (str1[0] === 'A' || str2[0] === 'A' || str3[0] === 'A') return 'Yes';
+  return 'No';
+}
