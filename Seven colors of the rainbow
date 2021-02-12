@@ -1,0 +1,7 @@
+Isaac Newton first identified the seven-color spectrum of the rainbow. These colors are: red, orange, yellow, green, blue, indigo, violet.
+Write a function named rainbowColor that takes a string color containing a color and returns true if the rainbow contains that color and false otherwise.
+
+function rainbowСolor(color){
+  if (color === 'red' || color === 'yellow' || color === 'green' || color === 'blue' || color === 'indigo' || color === 'violet') return true;
+  return false;
+}
