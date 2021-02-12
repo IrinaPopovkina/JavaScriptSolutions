@@ -1,0 +1,9 @@
+The American flag is a rectangular cloth with horizontal seven red and six white stripes. The dark blue canopy contains 50 five-pointed white stars.
+Write a function named flagColors that takes a string color containing the name of the color and returns:
+"This color is on the flag" if color is 'red', 'navy' or 'white';
+"This color is not on the flag", otherwise.
+
+
+function flagColors(color){
+  return color === 'red' || color === 'navy' || color === 'white' ? 'This color is on the flag' : 'This color is not on the flag';
+}
