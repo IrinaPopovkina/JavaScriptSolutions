@@ -1,0 +1,14 @@
+The number of the month is given (a number from 1 to 12). Get the season (winter, spring, summer, fall).
+Write a function named season that takes a month number and returns the time of year:
+"Winter" if month = 1, 2 or 12;
+"Spring" if month = 3, 4 or 5;
+"Summer" if month = 6, 7 or 8;
+"Fall" if month = 9, 10 or 11.
+
+
+function season(month){
+  if (month === 1 || month === 2 || month === 12) return 'Winter';
+  if (month === 3 || month === 4 || month === 5) return 'Spring';
+  if (month === 6 || month === 7 || month === 8) return 'Summer';
+  if (month === 9 || month === 10 || month === 11) return 'Fall';
+}
