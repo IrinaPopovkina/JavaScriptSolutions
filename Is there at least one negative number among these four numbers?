@@ -1,0 +1,6 @@
+Write a function called atLeastOneNegative that takes four numbers a, b, c, d as arguments and returns true if at least one of the numbers is negative and false otherwise. Write a function called atLeastOneNegative that takes four numbers a , b, c, d as arguments, and returns true if at least one of the numbers is negative, and false otherwise.
+
+function atLeastOneNegative(a, b, c, d){
+  if (a < 0 || b < 0 || c < 0 || d < 0) return true;
+  return false;
+}
