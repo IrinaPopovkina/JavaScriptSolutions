@@ -1,0 +1,6 @@
+Write a function named atLeastOneEven that takes three numbers a, b, c as arguments, and returns true if at least one of the numbers is even, and false otherwise.
+
+function atLeastOneEven(a, b, c){
+  if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0) return true;
+  return false;
+}
