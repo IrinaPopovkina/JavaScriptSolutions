@@ -1,0 +1,8 @@
+People buy most of the sweets in December for Christmas and New Years, and in February for Valentine's Day, and in October for Halloween.
+Write a function called sweetSeason that takes the month number month (a number between 1 and 12) as an argument and returns:
+"Time to buy sweets", if the month number is 2, 10, 12;
+"Not the time to buy sweets", otherwise.
+
+function sweetSeason(month){
+  return (month === 2 || month === 10 || month === 12) ? 'Time to buy sweets' : 'Not the time to buy sweets';
+}
