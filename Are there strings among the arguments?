@@ -1,0 +1,5 @@
+Write a function called isThereAString that takes two arguments value1 and value2 as arguments and, if there are strings among the arguments, returns the message "String received", otherwise it returns "There are no strings".
+
+function isThereAString(value1, value2){
+  return (typeof value1 === 'string' || typeof value2 === 'string') ? 'String received' : 'There are no strings';
+}
