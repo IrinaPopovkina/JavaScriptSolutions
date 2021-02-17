@@ -1,0 +1,18 @@
+In this task, you must correct the errors so that the function does the following: the function takes on value. If it's a number, double it. If value is a string, return that string with an exclamation point at the end. Otherwise, return the message "Wrong value".
+
+func bugsFixing(value) (
+  if {typeof value = 'number'} (
+    value * 2;
+  ) else (typeof value = 'string') (
+    value * '!';
+ ) else 'Wrong value';
+)
+
+
+function bugsFixing(value) {
+  if (typeof value === 'number') 
+    return value * 2;
+  if (typeof value === 'string') 
+    return value + '!';
+  return 'Wrong value';
+}
