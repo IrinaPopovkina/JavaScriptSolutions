@@ -1,0 +1,5 @@
+Write a function called typeOfArgument that takes one value as an argument and returns the data type of the argument.
+
+function typeOfArgument(value){
+  return typeof value;
+}
