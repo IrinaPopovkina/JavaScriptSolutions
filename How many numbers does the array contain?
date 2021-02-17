@@ -1,0 +1,9 @@
+Write a function called countNumbers that takes an array arr as an argument and returns the number of numbers in that array.
+
+function countNumbers(arr){
+  let count = 0;
+  for(let el of arr) {
+    if (typeof el === 'number') count++;
+  }
+  return count;
+}
