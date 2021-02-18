@@ -1,0 +1,6 @@
+Write a function called equalParity that takes two integers a, b as arguments and returns true if the numbers have the same parity (both even or both odd) and false otherwise.
+
+function equalParity(a, b){
+  if (a % 2 === 0 && b % 2 === 0 || a % 2 !== 0 && b % 2 !== 0) return true;
+  return false;
+}
