@@ -1,0 +1,5 @@
+Write a function named numbersIncrement that takes value as an argument and if that value is a number, returns it incremented by 1, otherwise it returns "It is not a number".
+
+function numbersIncrement(value){
+  return typeof value === 'number' ? value + 1 : "It is not a number";
+}
