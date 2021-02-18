@@ -1,0 +1,5 @@
+Write a function called inequalitiesAreFulfilled that takes two integers a, b as arguments and returns true if both a> 2 and b <= 3 are true, and false otherwise.
+
+function inequalitiesAreFulfilled(a, b){
+  return a > 2 && b <= 3 ? true: false;
+}
