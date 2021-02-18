@@ -1,0 +1,5 @@
+Write a function named minimum that takes five numbers n1, n2, n3, n4, n5 as arguments and returns the minimum of those numbers.
+
+function minumum(n1, n2, n3, n4, n5){
+  return Math.min(n1, n2, n3, n4, n5)
+}
