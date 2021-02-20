@@ -1,0 +1,7 @@
+Write a function called areAllDigitsDifferent that takes a positive three-digit number num as an argument and returns true if all the digits of that number are different and false otherwise.
+
+function areAllDigitsDifferent(num){
+  num = String(num);
+  if (num[0] !== num[1] && num[1] !== num[2] && num[2] !== num[0]) return true;
+  return false;
+}
