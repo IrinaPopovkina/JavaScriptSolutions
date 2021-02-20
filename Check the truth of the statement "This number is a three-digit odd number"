@@ -1,0 +1,5 @@
+Write a function named isThreeDigitOddNumber that takes a positive number num as an argument and returns true if num is a three-digit odd number, and false otherwise.
+
+function isThreeDigitOddNumber(num){
+  return num > 99  && num < 999 && num % 2 !== 0 ? true : false; 
+}
