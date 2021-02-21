@@ -1,0 +1,5 @@
+Write a function named inequalitiesAreFulfilled that takes three integers a, b, c as arguments and returns true if the double inequality a <b <c holds, and false otherwise.
+
+function inequalitiesAreFulfilled(a, b, c){
+  return a < b && b < c ? true : false;
+}
