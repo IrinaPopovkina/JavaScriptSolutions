@@ -1,0 +1,5 @@
+Write a function called isTwoDigitEvenNumber that takes a positive number num as an argument and returns true if num is a two-digit even number and false otherwise.
+
+function isTwoDigitEvenNumber(num){
+  return num % 2 === 0 && num >= 10 && num < 100 ? true : false;
+}
