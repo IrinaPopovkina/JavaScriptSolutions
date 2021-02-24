@@ -1,0 +1,6 @@
+Write a function named areDigitsInAscendingOrder that takes a positive three-digit number num as an argument and returns true if all the digits in the number are in ascending order, false otherwise.
+
+function areDigitsInAscendingOrder(num){
+  let num2 = String(num);
+  return num[0] < num[1] < num[2] ? true : false;
+}
