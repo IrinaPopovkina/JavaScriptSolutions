@@ -1,0 +1,5 @@
+Write a function called atLeastOnePairOfEquals that takes three integers a, b, c as arguments and returns true if there are at least two of the same numbers among these numbers, and false otherwise.
+
+function atLeastOnePairOfEquals(a, b, c){
+  return a === b || a == c || b == c ? true : false;
+}
