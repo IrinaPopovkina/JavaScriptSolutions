@@ -1,5 +1,5 @@
-Царевна-лягушка съедает ежедневно на 3 комара больше, чем в предыдущий день. Определите, в какой день количество съеденных комаров превысит 1000, если в первый день было съедено n комаров.
-Напишите функцию с именем frogPrincess, которая принимает число n (количество комаров в первый день) и возвращает количество дней, в течение которых лягушка съест 1000 комаров.
+The frog princess eats 3 more mosquitoes daily than on the previous day. Determine on which day the number of mosquitoes eaten will exceed 1000 if n mosquitoes were eaten on the first day.
+Write a function called frogPrincess that takes n (the number of mosquitoes on the first day) and returns the number of days that a frog will eat 1000 mosquitoes
 
 function frogPrincess(n){
 let sum = 0;
