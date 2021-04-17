@@ -1,0 +1,20 @@
+function christmasTree(n){
+  let sum = 0;
+  for(let i = 1; i < 2*n ; i += 2){
+    sum += i;
+  }
+  let str = '\n';
+  let toys = '@*#'.repeat(sum).slice(0, sum);
+  for(let i = 1, k = 1; i < n *2; i += 2, k++){
+    str += ' '.repeat(n-k);
+  for(let j = 1; j <= i; j++){
+    str += toys[0];
+    toys = toys.slice(1);
+  }
+    str += ' '.repeat(n-k) + '\n';
+  }
+  for(let i = 1; i < n/3; i++){
+    str += ' '.repeat(n-1) + '|' + ' '.repeat(n-1) + '\n';
+  }
+  return str.slice(0, -1);
+}
