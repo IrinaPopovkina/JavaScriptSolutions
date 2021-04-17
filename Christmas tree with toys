@@ -1,0 +1,16 @@
+function christmasTree(n){
+  let str = '\n';
+  let toys = '@*o$#8GJ+&';
+  for(let i = 1, k = 1; i < n * 2; i += 2, k++){
+    str += ' '.repeat(n - k);
+    for(let j = 1; j <= i; j++) {
+      let index = Math.trunc(Math.random()*10);
+      str += toys[index];
+    }
+    str += ' '.repeat(n - k) + '\n';
+  }
+  for(let i = 1; i < n/3; i++){
+    str += ' '.repeat(n-1) + '|' + ' '.repeat(n-1) + '\n';
+  }
+  return str;
+}
